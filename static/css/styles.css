@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+body,html {
+    margin: 0;
+    height: 100%;
+}
+.container
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.menu
+{
+    background-color: rgb(68, 174, 209);
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+    display: flex;
+    
+}
+.menu-options
+{
+    
+    margin-left: 20px;
+}
+.menu-options a
+{
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    margin-right: 20px;
+    
+}
+.data
+{
+    display: flex;
+    height: 90vh;
+}
+.title
+{
+    background-color: rgba(211, 211, 211, 0.192);
+    height: 90vh;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.title h1
+{
+   color: rgb(173, 173, 173);
+   font-size: 25px;
+   
+}
+.title a
+{
+    font-size: 20px;
+}
+.action
+{
+    width: 80%;
+    height: 90vh;
+    padding: 55px;
+}
+.input
+{
+    font-size: 20px;
+}
+.action-button
+{
+    color: red;
+}
+td
+{
+    padding: 5px;
+}
+th
+{
+    text-align: left;
+}
+h3
+{
+    font-size: 30px;
+    color: blue;
+}
+.icon
+{
+    width: 60px;
+}
