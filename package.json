@@ -12,6 +12,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^5.2.0",
+    "formidable": "^1.2.2",
     "mime": "^2.4.7",
     "nodemon": "^2.0.6"
   }
